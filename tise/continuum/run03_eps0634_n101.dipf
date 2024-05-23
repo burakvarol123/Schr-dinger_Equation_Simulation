@@ -1,0 +1,14 @@
+eps=0.0634;
+mu=20.0;
+N=50;
+D=1;
+tolerance_cg=1e-10;
+tolerance_pm=1e-07;
+res_recal_iterations=100;
+energy=0.48435594996665116;
+mu_x=[-4.7704895589362195e-18];
+mu_p=[0.0];
+sig_x=[0.9734245042206788];
+sig_p=[3.0291839650576455];
+Propability_in_R=0.5448360697856662;
+Process time for simulation=0.08015040500000004;

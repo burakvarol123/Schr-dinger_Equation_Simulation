@@ -1,0 +1,13 @@
+N=256;
+B=30;
+mu=51.0;
+D=2;
+tolerance_cg=10e-10;
+res_recal_iterations=100;
+s=1;
+k=[1.59,0.5];
+n0=[-150,0];
+dt=0.005;
+T=1;
+gen_propagator=strang_splitting;
+out=pillow2;

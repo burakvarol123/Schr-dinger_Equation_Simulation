@@ -1,0 +1,13 @@
+N=256;
+B=30;
+mu=100.0;
+D=1;
+tolerance_cg=10e-10;
+res_recal_iterations=100;
+s=1;
+k=[2.25];
+n0=[-150];
+dt=3e-4;
+T=0.1;
+gen_propagator=euler;
+out=eu_3e-4
