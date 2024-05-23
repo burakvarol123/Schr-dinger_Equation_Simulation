@@ -7,7 +7,7 @@ repository. This project is done by Burak Varol, Lyding Brumm and Max Heimann.
 # Usage
 ## Time independent Schrödinger Equation(tise):
 
- After you download the python scripts, you can create your own parameter file, which has the template: 
+ After you download the python scripts, you can create your own parameter file (.dipf), which has the template: 
 
         'eps': float,
         'mu': float,
@@ -18,7 +18,7 @@ repository. This project is done by Burak Varol, Lyding Brumm and Max Heimann.
         'res_recal_iterations': int,
 Using the main function as 
 
-        python -m tise.main <path-to-parameter-file> 
+        python -m tise.main $path_to_dipf_file 
 will calculate the observables and write them back to the parameter file. You can find related examples in our data in the repository. 
 To run the tests, please run with:
                  
